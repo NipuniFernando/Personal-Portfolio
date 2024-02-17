@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
+import Project from "./components/Projects/Project";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Banner />
         <Features />
+        <Project />
       </div>
     </div>
   );
